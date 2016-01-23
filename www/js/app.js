@@ -44,28 +44,28 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.slideCtrl'])
     controller: 'AppCtrl'
   })
 
-  .state('app.search', {
-    url: '/search',
+  .state('app.category', {
+    url: '/category',
     views: {
       'menuContent': {
-        templateUrl: 'templates/search.html'
+        templateUrl: 'templates/category.html'
       }
     }
   })
 
-  .state('app.browse', {
-      url: '/browse',
+  .state('app.account', {
+      url: '/account',
       views: {
         'menuContent': {
-          templateUrl: 'templates/browse.html'
+          templateUrl: 'templates/account.html'
         }
       }
     })
-    .state('app.playlists', {
-      url: '/playlists',
+    .state('app.shoplist', {
+      url: '/shoplist',
       views: {
         'menuContent': {
-          templateUrl: 'templates/playlists.html',
+          templateUrl: 'templates/shoplist.html',
           controller: 'PlaylistsCtrl'
         }
       }

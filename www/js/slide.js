@@ -8,7 +8,7 @@ angular.module('starter.slideCtrl', [])
    
       // Login with code
   window.localStorage.setItem("appopen", 'sdfsdfsdf');
-        $location.url('/app/search');
+        $location.url('/app/category');
 
   }
 
