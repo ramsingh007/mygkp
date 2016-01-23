@@ -70,12 +70,21 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.slideCtrl'])
         }
       }
     })
+      .state('app.chat', {
+      url: '/chat',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/chat.html',
+          controller: 'PlaylistsCtrl'
+        }
+      }
+    })
 
-  .state('app.single', {
-    url: '/playlists/:playlistId',
+  .state('app.shop_details', {
+    url: '/shop_details/:playlistId',
     views: {
       'menuContent': {
-        templateUrl: 'templates/playlist.html',
+        templateUrl: 'templates/shop_details.html',
         controller: 'PlaylistCtrl'
       }
     }
