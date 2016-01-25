@@ -37,6 +37,11 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.slideCtrl'])
     templateUrl: 'templates/slide.html',
     controller: 'slideCtrl'
   })
+  .state('login', {
+    url: '/login',
+    templateUrl: 'templates/login.html',
+    controller: 'slideCtrl'
+  })
     .state('app', {
     url: '/app',
     abstract: true,
@@ -75,6 +80,15 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.slideCtrl'])
       views: {
         'menuContent': {
           templateUrl: 'templates/chat.html',
+          controller: 'PlaylistsCtrl'
+        }
+      }
+    })
+        .state('app.todayoffer', {
+      url: '/todayoffer',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/todays_offer.html',
           controller: 'PlaylistsCtrl'
         }
       }

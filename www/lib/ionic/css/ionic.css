@@ -3925,7 +3925,7 @@ a.subdued {
       background-image: linear-gradient(180deg, #ddd, #ddd 50%, transparent 50%); }
   .bar.bar-stable {
     border-color: #b2b2b2;
-    background-color: #37A8D1;
+    background-color: #843E5C;
     background-image: linear-gradient(0deg, #b2b2b2, #b2b2b2 50%, transparent 50%);
     color: #444; }
     .bar.bar-stable .title {
@@ -4126,7 +4126,7 @@ a.subdued {
     border-color: transparent;
     background: none;
     box-shadow: none;
-    color: #444;
+    color: white;
     font-size: 17px; }
   .bar-stable .button.button-icon {
     border-color: transparent;
@@ -6346,8 +6346,8 @@ button.item.item-button-right {
   padding-top: 8px;
   padding-bottom: 8px;
   min-height: 30px;
-  background-color: #f5f5f5;
-  color: #222;
+  background-color: #843E5C;
+  color: white;
   font-weight: 500; }
 
 .platform-ios .item-divider-platform,
